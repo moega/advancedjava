@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" onsubmit="return false"> <!-- This "onsubmit" property is added to keep the Enter key from refreshing the page. Is this best way to accomplish this? What is best practice here - the preventDefault() method? -->
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>City Background</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<form>
+					<input type="text" id="city-type" placeholder="Enter a city name...">
+					<input type="submit" value="Update" id="submit-btn">
+				</form>
+			</div>
+		</header>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/index.js"></script>
+
+	</body>
+</html>
